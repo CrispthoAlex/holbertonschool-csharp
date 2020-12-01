@@ -1,0 +1,12 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/bin/Debug/netcoreapp2.1/2-print_alphabet.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/bin/Debug/netcoreapp2.1/2-print_alphabet.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/bin/Debug/netcoreapp2.1/2-print_alphabet.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/bin/Debug/netcoreapp2.1/2-print_alphabet.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/bin/Debug/netcoreapp2.1/2-print_alphabet.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/2-print_alphabet/obj/Debug/netcoreapp2.1/2-print_alphabet.genruntimeconfig.cache
