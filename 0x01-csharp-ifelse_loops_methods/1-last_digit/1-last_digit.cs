@@ -12,11 +12,11 @@ class Program
         {
             Console.WriteLine("and is greater than 5");
         }
-        if (lastdigit == 0)
+        else if (lastdigit == 0)
         {
             Console.WriteLine("and is 0");
         }
-        if (lastdigit < 6)
+        else // (lastdigit < 6)
         {
             Console.WriteLine("and is less than 6 and not 0");
         }
