@@ -1,0 +1,12 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/netcoreapp2.1/3-print_alphabt.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/netcoreapp2.1/3-print_alphabt.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/netcoreapp2.1/3-print_alphabt.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/netcoreapp2.1/3-print_alphabt.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/netcoreapp2.1/3-print_alphabt.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/netcoreapp2.1/3-print_alphabt.genruntimeconfig.cache
