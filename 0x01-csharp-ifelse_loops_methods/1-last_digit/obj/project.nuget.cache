@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "w4EuFGzdLHBTwMBCxcLnPZJAKw/GPTjr+v6nFtVqL9it+AtYXMZYJkW0ktaHfhFUWyjkrTUA1y4QwG5fGFTB8A==",
+  "success": true,
+  "projectFilePath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/1-last_digit/1-last_digit.csproj",
+  "expectedPackageFiles": [
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
