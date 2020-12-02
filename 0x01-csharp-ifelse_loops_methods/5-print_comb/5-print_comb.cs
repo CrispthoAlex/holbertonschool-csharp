@@ -1,18 +1,23 @@
 ﻿using System;
 
-class Program
+namespace _5_print_comb
 {
-    static void Main(string[] args)
+    class Program
     {
-        string sep = ", "; // separator
-        for (int num = 0; num < 100; num++)
+        static void Main(string[] args)
         {
-            Console.Write($"{num.ToString("d2")}");
-            if (num < 99)
+            string sep = ", "; // separator
+            for (int num = 0; num < 100; num++)
             {
-                Console.Write(sep);
+                if (num == 99)
+                {
+                    Console.Write($"{num.ToString("d2")}\n");
+                }
+                else
+                {
+                    Console.Write($"{num.ToString("d2")}" + sep);
+                }
             }
         }
-        Console.WriteLine(""); // new line
     }
 }
