@@ -1,0 +1,16 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.GeneratedMSBuildEditorConfig.editorconfig
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/11-print_diagonal
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/11-print_diagonal.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/11-print_diagonal.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/11-print_diagonal.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/11-print_diagonal.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/ref/11-print_diagonal.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/bin/Debug/net5.0/11-print_diagonal.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/ref/11-print_diagonal.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/11-print_diagonal/obj/Debug/net5.0/11-print_diagonal.genruntimeconfig.cache
