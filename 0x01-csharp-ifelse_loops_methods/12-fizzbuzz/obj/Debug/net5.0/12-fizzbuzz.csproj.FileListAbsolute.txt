@@ -1,0 +1,16 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/12-fizzbuzz
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/12-fizzbuzz.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/12-fizzbuzz.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/12-fizzbuzz.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/12-fizzbuzz.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/ref/12-fizzbuzz.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/net5.0/12-fizzbuzz.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/ref/12-fizzbuzz.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/net5.0/12-fizzbuzz.genruntimeconfig.cache
