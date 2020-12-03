@@ -1,12 +1,21 @@
 ﻿using System;
-
-namespace _1_common_elements
+using System.Collections.Generic;
+class List
 {
-    class Program
+    public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
-        static void Main(string[] args)
+        List<int> intersectList = new List<int>();
+        for (int i = 0; i < list1.Count; i++)
         {
-            Console.WriteLine("Hello World!");
+            for (int j = 0; j < list2.Count; j++)
+            {
+                if (list1[i] == list2[j])
+                {
+                    intersectList.Add(list2[j]);
+                }
+            }
         }
+        intersectList.Sort();
+        return intersectList;
     }
 }
