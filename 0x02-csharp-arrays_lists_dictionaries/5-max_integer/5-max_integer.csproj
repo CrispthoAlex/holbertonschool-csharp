@@ -2,8 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>_5_max_integer</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
 </Project>

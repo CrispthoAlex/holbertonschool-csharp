@@ -1,12 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _5_max_integer
+class List
 {
-    class Program
+    public static int MaxInteger(List<int> myList)
     {
-        static void Main(string[] args)
+        int max;
+        if (myList.Count == 0)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("List is empty");
+            return (-1);
         }
+
+        max = myList[0];
+
+        foreach (var element in myList)
+        {
+            if (element > max)
+            {
+                max = element;
+            }
+        }
+        return (max);
     }
 }
