@@ -1,12 +1,25 @@
 ﻿using System;
+using System.Linq;
+using System.Collections.Generic;
 
-namespace _13_best_score
+class Dictionary
 {
-    class Program
+    public static string BestScore(Dictionary<string, int> myList)
     {
-        static void Main(string[] args)
+        KeyValuePair<string, int> bestScore;
+
+        if (myList.Count == 0 || myList == null)
+            return ("None");
+
+        bestScore = myList.First();
+        foreach (KeyValuePair<string, int> element in myList)
         {
-            Console.WriteLine("Hello World!");
+            if (element.Value > bestScore.Value)
+            {
+                bestScore = element;
+            }
         }
+
+        return (bestScore.Key);
     }
 }
