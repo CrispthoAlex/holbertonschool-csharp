@@ -1,0 +1,12 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/bin/Debug/netcoreapp2.1/0-print_array.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/bin/Debug/netcoreapp2.1/0-print_array.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/bin/Debug/netcoreapp2.1/0-print_array.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/bin/Debug/netcoreapp2.1/0-print_array.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/bin/Debug/netcoreapp2.1/0-print_array.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x02-csharp-arrays_lists_dictionaries/0-print_array/obj/Debug/netcoreapp2.1/0-print_array.genruntimeconfig.cache
