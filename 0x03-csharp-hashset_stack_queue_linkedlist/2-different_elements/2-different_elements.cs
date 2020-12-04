@@ -1,12 +1,25 @@
 ﻿using System;
-
-namespace _2_different_elements
+using System.Collections.Generic;
+class List
 {
-    class Program
+    public static List<int> DifferentElements(List<int> list1, List<int> list2)
     {
-        static void Main(string[] args)
+        List<int> differentList = new List<int>();
+        foreach (int ele in list1)
         {
-            Console.WriteLine("Hello World!");
+            if(list2.Exists(e => e == ele) == false)
+            {
+                differentList.Add(ele);
+            }
         }
+        foreach (int ele in list2)
+        {
+            if(list1.Exists(e => e == ele) == false)
+            {
+                differentList.Add(ele);
+            }
+        }
+        differentList.Sort();
+        return differentList;
     }
 }
