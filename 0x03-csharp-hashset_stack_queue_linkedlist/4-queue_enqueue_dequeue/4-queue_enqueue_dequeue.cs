@@ -1,12 +1,32 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _4_queue_enqueue_dequeue
+class MyQueue
 {
-    class Program
+    public static Queue<string> Info(Queue<string> aQueue, string newItem, string search)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        Console.WriteLine($"Number of items: {aQueue.Count}");
+
+        if (aQueue.Count > 0) 
+        { 
+            Console.WriteLine($"First item: {aQueue.Peek()}");
         }
+        else 
+        {
+            Console.WriteLine("Queue is empty");
+        }
+        aQueue.Enqueue(newItem);
+        Console.WriteLine($"Queue contains \"{search}\": {aQueue.Contains(search)}");
+        if (aQueue.Contains(search))
+        {
+            // Create a new stack to handle the old stack
+            Stack<string> newQueue = new Stack<string>(aQueue);
+            foreach (var item in newQueue)
+            {
+                if (aQueue.Dequeue() == search) { break; }
+            }
+        }
+        
+        return aQueue;
     }
 }
