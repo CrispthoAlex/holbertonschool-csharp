@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _9_linkedlist_pop
+class LList
 {
-    class Program
+    public static int Pop(LinkedList<int> myLList)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        if (myLList.Count == 0) { return 0;}
+        
+        LinkedListNode<int> headNode = myLList.First;
+        
+        myLList.RemoveFirst();
+        
+        return headNode.Value;
     }
 }
