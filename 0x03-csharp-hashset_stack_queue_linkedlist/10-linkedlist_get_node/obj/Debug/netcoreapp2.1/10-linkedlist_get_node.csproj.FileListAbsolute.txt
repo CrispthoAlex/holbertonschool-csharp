@@ -1,0 +1,12 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/netcoreapp2.1/10-linkedlist_get_node.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/netcoreapp2.1/10-linkedlist_get_node.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/netcoreapp2.1/10-linkedlist_get_node.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/netcoreapp2.1/10-linkedlist_get_node.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/netcoreapp2.1/10-linkedlist_get_node.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/netcoreapp2.1/10-linkedlist_get_node.genruntimeconfig.cache
