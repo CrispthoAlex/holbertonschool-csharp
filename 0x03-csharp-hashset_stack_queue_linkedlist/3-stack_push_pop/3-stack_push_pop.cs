@@ -16,7 +16,7 @@ class MyStack
             Console.WriteLine("Stack is empty");
         }
 
-        Console.WriteLine($"Stack contains {search}: {aStack.Contains(search)}");
+        Console.WriteLine($"Stack contains \"{search}\": {aStack.Contains(search)}");
         if (aStack.Contains(search))
         {
             // Create a new stack to handle the old stack
