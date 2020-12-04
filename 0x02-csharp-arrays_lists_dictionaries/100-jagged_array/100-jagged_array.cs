@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        int[] sizeArray = new int[] {4, 7, 2};
+        int[] sizeArray = new int[] {4, 7, 2}; // Our single array columns
         
         // Initialized jagged Array size of each array in
         int[][] _jaggedArray = new int[sizeArray.Length][];
@@ -12,8 +12,7 @@ class Program
         {
             _jaggedArray[i]= new int[sizeArray[i]];
         }
-
-        // // Initialized jagged Array elements
+        // Initialize jagged Array elements and print
         for (int row = 0; row < sizeArray.Length; row++)
         {
             for (int col = 0; col < sizeArray[row]; col++)
