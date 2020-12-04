@@ -5,7 +5,7 @@ class Matrix
     public static int[,] Square(int[,] myMatrix)
     {
         int[,] newMatrix;
-    int columns = myMatrix.GetLength(1);
+        int columns = myMatrix.GetLength(1);
         int rows = myMatrix.GetLength(0);
 
         newMatrix = new int[rows, columns];
