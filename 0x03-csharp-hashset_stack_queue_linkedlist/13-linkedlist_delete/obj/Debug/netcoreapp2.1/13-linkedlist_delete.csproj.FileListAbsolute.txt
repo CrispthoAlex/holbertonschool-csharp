@@ -1,0 +1,12 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.runtimeconfig.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.runtimeconfig.dev.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.genruntimeconfig.cache
