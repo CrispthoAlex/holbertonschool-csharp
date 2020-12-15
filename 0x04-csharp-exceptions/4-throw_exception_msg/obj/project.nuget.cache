@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "jnxABN04QJzKyQcuk5jQXkTdwQirMpsJLoU3rgz8AYMXFAK7zM2VRNw/EYHsKA1hgFdADKhY5w5DvAtbPOQuLw==",
+  "dgSpecHash": "ihmhcH5YYL6vFCOEfPdgs9zBL5o2Ui3Qy+wLfPJQu7yelpq2d5fDdrkHQmBNgMOT5Dkm3qGio5Kfo9zl4FiZEA==",
   "success": true,
   "projectFilePath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x04-csharp-exceptions/4-throw_exception_msg/4-throw_exception_msg.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
