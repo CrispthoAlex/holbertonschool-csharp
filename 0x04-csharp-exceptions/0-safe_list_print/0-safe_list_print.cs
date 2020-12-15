@@ -8,10 +8,10 @@ class List
         int intPrinted = 0; // Save the number of elements that was printed
         try
         {
-            for (int i = 0; i < n; i++)
+            for (; intPrinted < n; intPrinted++)
             {
-                Console.WriteLine(myList[i]);
-                intPrinted++;
+                Console.WriteLine(myList[intPrinted]);
+                // intPrinted++;
             }
         }
         catch (System.Exception)
