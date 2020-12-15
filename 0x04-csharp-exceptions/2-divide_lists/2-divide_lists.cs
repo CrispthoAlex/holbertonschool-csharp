@@ -6,32 +6,25 @@ class List
     public static List<int> Divide(List<int> list1, List<int> list2, int listLength)
     {
         List<int> resultList = new List<int>();
-        Boolean flagZero = false;
-        try
+        for (int i = 0; i < listLength; i++)
         {
-            for (int i = 0; i < listLength; i++)
+            try
             {
                 if (list2[i] == 0)
                 {
-                    flagZero = true;
                     resultList.Add(0);
-                    // Console.WriteLine(resultList[i]);
+                    throw new DivideByZeroException();
                 }
                 else
                 {
-                    // flagZero = false;
                     resultList.Add(list1[i] / list2[i]);
-                    // Console.WriteLine(resultList[i]);
                 }
-            }
-        }
-        catch (System.Exception)
-        {
-            if (flagZero == true)
+            }    
+            catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
             }
-            if ( listLength > list1.Count || listLength > list2.Count )
+            catch (ArgumentOutOfRangeException)
             {
                 Console.WriteLine("Out of range");
             }
