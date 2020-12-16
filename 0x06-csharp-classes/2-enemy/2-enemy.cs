@@ -25,13 +25,13 @@ namespace Enemies
         }
         /// <summary>
         /// Zombie public constructor with int argument and 
-        ///  raise a exception.
+        /// raise a exception.
         /// </summary>
         /// <exception cref="ArgumentException">Thrown when value parameter is
         /// less than 0.</exception>
         public Zombie(int value)
         {
-            if (value > 0)
+            if (value >= 0)
             {
                 this.health = value;
             }

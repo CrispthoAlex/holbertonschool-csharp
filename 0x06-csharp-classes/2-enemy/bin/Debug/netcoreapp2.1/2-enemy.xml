@@ -27,7 +27,7 @@
         <member name="M:Enemies.Zombie.#ctor(System.Int32)">
             <summary>
             Zombie public constructor with int argument and 
-             raise a exception.
+            raise a exception.
             </summary>
             <exception cref="T:System.ArgumentException">Thrown when value parameter is
             less than 0.</exception>
