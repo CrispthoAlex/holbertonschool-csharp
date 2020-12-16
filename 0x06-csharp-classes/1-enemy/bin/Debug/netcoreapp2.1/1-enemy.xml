@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>1-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Zombie class that define a zombie by:
+             * public field health
+             * health should be an int and have no value
+             * public constructor: public Zombie()
+                 * sets the value of health to 0
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>
+            public field, int and have no value.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Zombie public constructor to set the value of 
+            health field.
+            </summary>
+        </member>
+    </members>
+</doc>
