@@ -1,12 +1,42 @@
 ﻿using System;
 
-namespace _2_enemy
+namespace Enemies
 {
-    class Program
+    /// <summary>
+    /// Zombie class that define a zombie by:
+    ///  * public field health
+    ///  * health should be an int and have no value
+    ///  * public constructor: public Zombie()
+    ///      * sets the value of health to 0
+    /// </summary>
+    public class Zombie
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// public field, int and have no value.
+        /// </summary>
+        public int health;
+        /// <summary>
+        /// Zombie public constructor to set the value of 
+        /// health field.
+        /// </summary>
+        public Zombie()
         {
-            Console.WriteLine("Hello World!");
+            this.health = 0;
+        }
+        /// <summary>
+        /// Zombie public constructor with int argument and 
+        ///  raise a exception.
+        /// </summary>
+        public Zombie(int value)
+        {
+            if (value > 0)
+            {
+                this.health = value;
+            }
+            else
+            {
+                throw new ArgumentException("Health must be greater than or equal to 0");
+            }
         }
     }
 }
