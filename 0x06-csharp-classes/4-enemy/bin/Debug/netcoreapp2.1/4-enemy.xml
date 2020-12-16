@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-enemy</name>
+    </assembly>
+    <members>
+        <member name="T:Enemies.Zombie">
+            <summary>
+            Zombie class that define a zombie by:
+             * public field health
+             * health should be an int and have no value
+             * public constructor: public Zombie()
+                 * sets the value of health to 0
+            </summary>
+        </member>
+        <member name="F:Enemies.Zombie.health">
+            <summary>
+            private field int type and have no value.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor">
+            <summary>
+            Zombie public constructor to set the value of 
+            health field.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.#ctor(System.Int32)">
+            <summary>
+            Zombie public constructor with int argument and 
+            raise a exception.
+            </summary>
+            <exception cref="T:System.ArgumentException">Thrown when value parameter is
+            less than 0.</exception>
+        </member>
+        <member name="F:Enemies.Zombie.name">
+            <summary>
+            "name" private field string type and have default value.
+            </summary>
+        </member>
+        <member name="P:Enemies.Zombie.Name">
+            <summary>
+            public property Name
+                * get: retrieve name
+                * set: set name.
+            </summary>
+        </member>
+        <member name="M:Enemies.Zombie.GetHealth">
+            <summary>
+            GetHealth public method that returns the value of health
+            of the Zombie object.
+            </summary>
+        </member>
+    </members>
+</doc>
