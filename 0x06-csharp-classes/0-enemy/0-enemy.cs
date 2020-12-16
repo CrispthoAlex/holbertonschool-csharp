@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace _0_enemy
+namespace Enemies
 {
-    class Program
+    /// <summary>
+    /// Empty class named Zombie.
+    /// </summary>
+    public class Zombie
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        
     }
 }
