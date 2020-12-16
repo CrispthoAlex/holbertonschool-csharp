@@ -29,6 +29,8 @@
             Zombie public constructor with int argument and 
              raise a exception.
             </summary>
+            <exception cref="T:System.ArgumentException">Thrown when value parameter is
+            less than 0.</exception>
         </member>
     </members>
 </doc>

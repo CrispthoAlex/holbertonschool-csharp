@@ -27,6 +27,8 @@ namespace Enemies
         /// Zombie public constructor with int argument and 
         ///  raise a exception.
         /// </summary>
+        /// <exception cref="ArgumentException">Thrown when value parameter is
+        /// less than 0.</exception>
         public Zombie(int value)
         {
             if (value > 0)
