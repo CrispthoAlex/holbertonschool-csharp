@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "NVjfzxH1jjw4h0vsYqXFOABBSUhEvz28k7qhZqvcurFTYJN+Yd7EKtVDDiV/wYdiSja+awTWZgn0JtprWCUXxQ==",
+  "dgSpecHash": "Xf7Rlm/VxluQxiyUbKdubmr4u74+ZessugniX/yfzRmv4YWIvza6btTzimzrE+dcCq67MQajqGzt/BTbZsaOiQ==",
   "success": true,
   "projectFilePath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x06-csharp-classes/3-enemy/3-enemy.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.platforms/2.1.0/microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "/home/crispthoalex/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
