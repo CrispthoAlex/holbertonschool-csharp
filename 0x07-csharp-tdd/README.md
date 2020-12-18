@@ -86,7 +86,7 @@ The resulting directory hierarchy for task #0 will look like this:
 | Crispthofer Rincon | [crispthoalex](https://github.com/crispthoalex) | [@crispthoalex](https://twitter.com/crispthoalex) | [carmurrain](https://www.linkedin.com/in/carmurrain) |
 
 ### License
-*`0x06. C# - Classes and Namespaces` is open source and therefore free to download and use without permission.*
+*`0x07. C# - Test Driven Development` is open source and therefore free to download and use without permission.*
 
 <a href="url"><img src="https://www.holbertonschool.com/holberton-logo.png" align="middle" width="100" height="30"></a>
 
