@@ -21,9 +21,8 @@ namespace MyMath
                 newMatrix = new int[matrix.GetLength(0), matrix.GetLength(1)];
                 for (int row = 0; row < matrix.GetLength(0); row++)
                 {   
-                    for (int col = 0; col < matrix.GetLength(0); col++)
+                    for (int col = 0; col < matrix.GetLength(1); col++)
                     {
-                        Console.WriteLine(matrix.GetLength(1));
                         newMatrix[row, col] = matrix[row, col] / num;
                     }
                 } 
