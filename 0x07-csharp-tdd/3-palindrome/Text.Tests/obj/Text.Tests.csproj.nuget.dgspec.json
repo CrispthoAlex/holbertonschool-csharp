@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text.Tests/Text.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text.Tests/Text.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text.Tests/Text.Tests.csproj",
+        "projectName": "Text.Tests",
+        "projectPath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text.Tests/Text.Tests.csproj",
+        "packagesPath": "/home/crispthoalex/.nuget/packages/",
+        "outputPath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/crispthoalex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
