@@ -1,0 +1,10 @@
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/netcoreapp2.1/MyMath.deps.json
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/netcoreapp2.1/MyMath.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/netcoreapp2.1/MyMath.pdb
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/bin/Debug/netcoreapp2.1/MyMath.xml
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/netcoreapp2.1/MyMath.csprojAssemblyReference.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/netcoreapp2.1/MyMath.AssemblyInfoInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/netcoreapp2.1/MyMath.AssemblyInfo.cs
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/netcoreapp2.1/MyMath.csproj.CoreCompileInputs.cache
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/netcoreapp2.1/MyMath.dll
+/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/0-add/MyMath/obj/Debug/netcoreapp2.1/MyMath.pdb
