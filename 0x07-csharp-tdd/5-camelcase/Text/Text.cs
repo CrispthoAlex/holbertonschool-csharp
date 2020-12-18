@@ -17,23 +17,20 @@ namespace Text
         /// </summary>
         public static int CamelCase(string s)
         {
-            int flagChar = 1; // Flag to verify if an word not contains digit
+            bool flagUpper = false; // Flag to verify if an word not contains digit
             int countWord = 0;
             
             try
             {
-                string[] strList = s.ToUpper().Split(' ', '\'');
-
-                foreach (string word in strList)
+                foreach (char c in s)
                 {
-                    flagChar = 1;
-                    foreach (char c in word)
-                    {
-                        if (Char.IsDigit(c))
-                            flagChar = 0;
-                    }
-                    if (flagChar == 1)
+                    if (Char.IsUpper(c) && flagUpper == true)
                         countWord++;
+                    else if (flagUpper == false && Char.IsLower(c))
+                    {
+                        countWord++;
+                        flagUpper = true;
+                    }
                 }    
             }
             catch (NullReferenceException)
