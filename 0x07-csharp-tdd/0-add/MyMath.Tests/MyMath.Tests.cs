@@ -13,11 +13,5 @@ namespace MyMath.Tests
             // Testing Add method
             Assert.AreEqual(Operations.Add(a, b), result);
         }
-
-        [Test]
-        public void Test1()
-        {
-            Assert.Pass();
-        }
     }
 }
