@@ -6,7 +6,7 @@
 class Obj
 {
     /// <summary>
-    /// Method to add the integers "a" and "b"
+    /// Method to chech if obj parameter is int type
     /// <param name="obj">integer</param>
     /// <returns>If obj is int True, else False</returns>
     /// </summary>
