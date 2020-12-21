@@ -1,12 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace _4_inherit
+/// <summary>
+/// Animal class is empty
+/// </summary>
+class Animal
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+    // Empty
+}
+/// <summary>
+/// Dog class is empty, and inherites from Animal class
+/// </summary>
+class Dog : Animal
+{
+    // Empty
 }
