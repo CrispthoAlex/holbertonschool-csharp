@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace _5_shape
+/// <summary>
+/// Shape class define a Area method.
+/// </summary>
+public class Shape
 {
-    class Program
+    /// <summary>
+    /// Method to calculate Area.
+    /// </summary>
+    public virtual int Area()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        throw new NotImplementedException("Area() is not implemented");
     }
 }
