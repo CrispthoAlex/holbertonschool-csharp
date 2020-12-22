@@ -28,7 +28,11 @@
         "frameworks": {
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text/Text.csproj": {
+                "projectPath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text/Text.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,6 +48,12 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             },
             "NUnit": {
               "target": "Package",
@@ -64,11 +74,64 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text/Text.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text/Text.csproj",
+        "projectName": "Text",
+        "projectPath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text/Text.csproj",
+        "packagesPath": "/home/crispthoalex/.nuget/packages/",
+        "outputPath": "/home/crispthoalex/holberton-specialization/holbertonschool-csharp/0x07-csharp-tdd/3-palindrome/Text/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/crispthoalex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
             "Microsoft.NETCore.App": {
-              "privateAssets": "all"
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
