@@ -1,12 +1,51 @@
 ﻿using System;
 
-namespace _6_shape
+/// <summary>
+/// Shape class define a Area method.
+/// </summary>
+public class Shape
 {
-    class Program
+    /// <summary>
+    /// Method to calculate Area.
+    /// </summary>
+    public virtual int Area()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        throw new NotImplementedException("Area() is not implemented");
+    }
+}
+
+/// <summary>
+/// Rectangle class is defined
+/// </summary>
+public class Rectangle : Shape
+{
+    private int width;
+    private int height;
+
+    /// <summary>
+    /// Public property named Width.
+    /// </summary>
+    public int Width
+    {
+        get { return width; }
+        set {
+            if (value < 0)
+                throw new ArgumentException("Width must be greater than or equal to 0") ;
+            else
+                width = value ;
+        }
+    }
+    /// <summary>
+    /// Public property named Height.
+    /// </summary>
+    public int Height
+    {
+        get { return height; }
+        set {
+            if (value < 0)
+                throw new ArgumentException("Height must be greater than or equal to 0") ;
+            else
+                height = value ;
         }
     }
 }
