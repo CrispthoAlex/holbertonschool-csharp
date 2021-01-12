@@ -16,7 +16,9 @@ class VectorMath
     /// <param name="vector2">: Vector variable to add. </param>
     public static double[] Add(double[] vector1, double[] vector2)
     {        
-        if (vector1 is double[] && vector2 is double[] && vector1.Length == vector2.Length)
+        if (vector1 is double[] && vector2 is double[] &&
+            vector1.Length == vector2.Length &&
+            vector1.Length <= 3 && vector2.Length <= 3)
         {
             double[] sumVector = new double[vector1.Length];            
             
