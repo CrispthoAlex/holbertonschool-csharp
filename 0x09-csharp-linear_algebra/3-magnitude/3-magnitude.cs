@@ -17,7 +17,7 @@ class VectorMath
         double magVector = 0;
         double sumSqrtVec = 0;
         
-        if (vector is double[])
+        if (vector is double[]  && vector.Length <= 3)
         {
             for (int i = 0; i < vector.Length; i++)
             {

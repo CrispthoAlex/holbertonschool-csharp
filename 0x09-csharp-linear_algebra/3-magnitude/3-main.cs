@@ -18,5 +18,8 @@ class Program
 
         lengthVector = VectorMath.Magnitude(new double[] {});
         Console.WriteLine($"Length of vector3 is {lengthVector}");
+
+        lengthVector = VectorMath.Magnitude(new double[] {7.0, -3.0, 9.0, 8.9});
+        Console.WriteLine($"It's not a 2D or 3D vector: {lengthVector}");
     }
 }
