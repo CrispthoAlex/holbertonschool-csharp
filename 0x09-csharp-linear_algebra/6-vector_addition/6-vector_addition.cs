@@ -18,7 +18,8 @@ class VectorMath
     {        
         if (vector1 is double[] && vector2 is double[] &&
             vector1.Length == vector2.Length &&
-            vector1.Length <= 3 && vector2.Length <= 3)
+            (2 <= vector1.Length && vector1.Length <= 3) && 
+            (2 <= vector2.Length && vector2.Length <= 3) )
         {
             double[] sumVector = new double[vector1.Length];            
             

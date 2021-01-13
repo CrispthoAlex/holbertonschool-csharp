@@ -18,7 +18,9 @@ class MatrixMath
     {        
         if (matrix1 is double[,] && matrix2 is double[,] &&
             matrix1.GetLength(0) == matrix2.GetLength(0) && // Equal Dimension
-            matrix1.Length == matrix2.Length) // Equal Elements
+            matrix1.Length == matrix2.Length && // Equal Elements
+            (2 <= matrix1.GetLength(0) && matrix1.GetLength(0) <= 3) &&
+            (2 <= matrix2.GetLength(0) && matrix2.GetLength(0) <= 3) )
         {
             int dimMat = matrix1.GetLength(0);
             double[,] sumMatrix = new double[dimMat, dimMat];

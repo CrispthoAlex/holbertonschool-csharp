@@ -15,7 +15,7 @@ class VectorMath
     /// <param name="scalar">: number to multiply. </param>
     public static double[] Multiply(double[] vector, double scalar)
     {        
-        if (vector is double[] && vector.Length <= 3)
+        if (vector is double[] && (2 <= vector.Length && vector.Length <= 3) )
         {
             int vecLength = vector.Length;
             double[] kVector = new double[vecLength];            
