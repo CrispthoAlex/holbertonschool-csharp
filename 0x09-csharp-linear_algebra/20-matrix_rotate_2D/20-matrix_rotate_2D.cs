@@ -19,7 +19,7 @@ class MatrixMath
         double cosinangle = Math.Cos(angle);
         double sinangle = Math.Sin(angle);
 
-        double[,] rotateMatrix = new double[,] { {cosinangle, sinangle}, {sinangle, cosinangle} };
+        double[,] rotateMatrix = new double[,] { {cosinangle, sinangle}, {-sinangle, cosinangle} };
         
         if (matrix is double[,] && rotateMatrix is double[,] &&
             rotateMatrix.GetLength(1) == matrix.GetLength(0) ) // Columns matrix equal to Rows rotateMatrix.
