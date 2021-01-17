@@ -15,7 +15,8 @@ class MatrixMath
     /// <param name="scalar">: Scalar variable to multiply. </param>
     public static double[,] MultiplyScalar(double[,] matrix, double scalar)
     {        
-        if (matrix is double[,] && (2 <= matrix.GetLength(0) && matrix.GetLength(0) <= 3))
+        if (matrix is double[,] && (2 == matrix.GetLength(0) && 2 == matrix.GetLength(1)) ||
+        (3 == matrix.GetLength(0) && 3 == matrix.GetLength(1)) )
         {
             int dimMat = matrix.GetLength(0);
             double[,] kMatrix = new double[dimMat, dimMat];

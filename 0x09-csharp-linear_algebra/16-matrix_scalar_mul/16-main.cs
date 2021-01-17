@@ -34,7 +34,7 @@ class Program
         } else
         {
             Console.WriteLine(
-                $"Dimension (Rank) = {matrix.Rank}\nDimension (Vector) = {matrix.GetLength(0)}\nAll Elements = {matrix.Length}"
+                $"Dimension (Row) = {matrix.GetLength(1)}\nDimension (Vector) = {matrix.GetLength(0)}\nAll Elements = {matrix.Length}"
                 );
             
             Console.WriteLine($"Resulting adding matrix is: ");
