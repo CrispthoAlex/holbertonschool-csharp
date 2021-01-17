@@ -13,22 +13,17 @@ class VectorMath
     /// </returns>
     /// <param name="vector">: Vector variable to calculate its length </param>
     public static double Magnitude(double[] vector)
-    {
-        double magVector = 0;
-        double sumSqrtVec = 0;
-        
-        if (vector is double[]  && (2 <= vector.Length && vector.Length <= 3) )
+    {        
+        if (vector is double[]  && (2 <= vector.Length && vector.Length <= 3))
         {
+            double sumSqrtVec = 0;
+
             for (int i = 0; i < vector.Length; i++)
             {
-                sumSqrtVec += Math.Pow(vector[i], 2f);
+                sumSqrtVec += Math.Pow(vector[i], 2);
             }
-            magVector = Math.Sqrt(sumSqrtVec);
-            // lengthVector = Math.Sqrt(Math.Pow(vector.X, 2f) + Math.Pow(vector.Y, 2f) + Math.Pow(vector.Z, 2f));
+            return Math.Round(Math.Sqrt(sumSqrtVec), 2);
         }
-        else  { return (-1); }
-        
-        return Math.Round(magVector, 1);
-        //return lengthVector;
+        else  { return -1; }
     }
 }
