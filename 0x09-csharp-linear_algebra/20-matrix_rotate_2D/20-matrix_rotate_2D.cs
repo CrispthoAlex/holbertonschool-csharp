@@ -47,7 +47,7 @@ class MatrixMath
                     for (int rxc = 0; rxc < colMat2; rxc++)
                     {
                         // Move col matrix1 and row matrix2
-                        mulMatrix[row, rxc] += Math.Round(matrix[row, col] * rotateMatrix[col, rxc], 2);
+                        mulMatrix[row, rxc] = Math.Round(mulMatrix[row, rxc] + matrix[row, col] * rotateMatrix[col, rxc], 2);
                     }
                 }
             }

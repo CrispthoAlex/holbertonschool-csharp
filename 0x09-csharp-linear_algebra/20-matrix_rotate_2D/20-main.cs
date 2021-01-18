@@ -13,7 +13,7 @@ class Program
         };
         Console.WriteLine($"Matrix1:\nRows = {matrix1.GetLength(0)}\nColumns = {matrix1.GetLength(1)}");
         
-        double angle = -1.57;
+        double angle = 2; //1.57;
         Console.WriteLine($"Angle = {angle}");
         
         printMatrix(MatrixMath.Rotate2D(matrix1, angle));
