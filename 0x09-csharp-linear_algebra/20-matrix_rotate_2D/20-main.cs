@@ -21,8 +21,8 @@ class Program
         Console.WriteLine("\n==================== TEST 2 ======================\n");
         double[,] matrix3 = new double[,] {
             {-11, -5},
-            {6, 16}
-            //{5, 2}
+            {6, 16},
+            {5, 2}
         };
 
         Console.WriteLine($"Matrix3:\nColumns = {matrix3.GetLength(0)}\nRows = {matrix3.GetLength(1)}");
