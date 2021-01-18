@@ -19,25 +19,25 @@ class MatrixMath
         // int countColMat1 = 0; // Number of columns in Matrix1
         
         if (matrix1 is double[,] && matrix2 is double[,] &&
-            matrix2.GetLength(1) == matrix1.GetLength(0)) // Columns matrix1 equal to Rows matrix2.
+            matrix2.GetLength(0) == matrix1.GetLength(1)) // Columns matrix1 equal to Rows matrix2.
         {
-            int colMat1 = matrix1.GetLength(0); // Vectors / Columns
-            int rowMat1 = matrix1.GetLength(1); // Elements of vector == Rows
-            int rowMat2 = matrix2.GetLength(1); // Elements of vector == Rows
-            int colMat2 = matrix2.GetLength(0); // Vectors / Columns
+            int rowMat1 = matrix1.GetLength(0); // Elements of vector == Rows
+            int colMat1 = matrix1.GetLength(1); // Vectors / Columns
+            int colMat2 = matrix2.GetLength(1); // Vectors / Columns
+            int rowMat2 = matrix2.GetLength(0); // Elements of vector == Rows
 
-            double[,] mulMatrix = new double[colMat2, rowMat1];
+            double[,] mulMatrix = new double[rowMat1, colMat2];
 
             // Matrix resulting has the same number of rows as the 1st matrix, and the same number
             // of columns as the 2nd matrix.
-            for (int col = 0; col < colMat2; col++)
+            for (int col = 0; col < colMat1; col++)
             {
                 for (int row = 0; row < rowMat1; row++)
                 {
-                    for (int rxc = 0; rxc < rowMat2; rxc++)
+                    for (int rxc = 0; rxc < colMat2; rxc++)
                     {
                         // Move col matrix1 and row matrix2
-                        mulMatrix[rxc, row] += matrix1[rxc, row] * matrix2[col, rxc] ;
+                        mulMatrix[row, rxc] += matrix1[row, col] * matrix2[col, rxc] ;
                     }
                 }
             }

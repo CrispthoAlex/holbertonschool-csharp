@@ -12,13 +12,13 @@ class Program
             {3, 4},
             {-5, -6}
         };
-        Console.WriteLine($"Matrix1:\nColumns = {matrix1.GetLength(0)}\nRows = {matrix1.GetLength(1)}");
+        Console.WriteLine($"Matrix1:\nRows = {matrix1.GetLength(0)}\nColumns = {matrix1.GetLength(1)}");
         double[,] matrix2 = {
             {9, 8, 7},
-            {-6, -5, 4},
-            {-3, 2, 1}
+            {-6, -5, 4}
+            //{-3, 2, 1}
         };
-        Console.WriteLine($"Matrix2:\nColumns = {matrix2.GetLength(0)}\nRows = {matrix2.GetLength(1)}");
+        Console.WriteLine($"Matrix2:\nRows = {matrix2.GetLength(0)}\nColumns = {matrix2.GetLength(1)}");
         printMatrix(MatrixMath.Multiply(matrix1, matrix2));
         
         Console.WriteLine("\n==================== TEST 2 ======================\n");
@@ -29,8 +29,8 @@ class Program
             {1, 3}
         };
 
-        Console.WriteLine($"Matrix1:\nColumns = {matrix1.GetLength(0)}\nRows = {matrix1.GetLength(1)}");
-        Console.WriteLine($"Matrix3:\nColumns = {matrix3.GetLength(0)}\nRows = {matrix3.GetLength(1)}");
+        Console.WriteLine($"Matrix1:\nRows = {matrix1.GetLength(0)}\nColumns = {matrix1.GetLength(1)}");
+        Console.WriteLine($"Matrix3:\nRows = {matrix3.GetLength(0)}\nColumns = {matrix3.GetLength(1)}");
         printMatrix(MatrixMath.Multiply(matrix1, matrix3));
     }
     // Method to print Matrix
@@ -44,7 +44,7 @@ class Program
         {
                     
             Console.WriteLine(
-                $"Dimension (Rank) = {matrix.Rank}\nDimension Column = {matrix.GetLength(0)}\nDimension Row = {matrix.GetLength(1)}\nAll Elements = {matrix.Length}"
+                $"Dimension (Rank) = {matrix.Rank}\nDimension Column = {matrix.GetLength(1)}\nDimension Row = {matrix.GetLength(0)}\nAll Elements = {matrix.Length}"
                 );
             
             Console.WriteLine($"Multiply resulting matrix is: ");
