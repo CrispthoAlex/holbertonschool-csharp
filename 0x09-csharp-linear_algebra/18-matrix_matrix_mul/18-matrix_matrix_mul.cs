@@ -37,7 +37,7 @@ class MatrixMath
                     for (int rxc = 0; rxc < rowMat2; rxc++)
                     {
                         // Move col matrix1 and row matrix2
-                        mulMatrix[col, row] += matrix1[rxc, row] * matrix2[col, rxc] ;
+                        mulMatrix[rxc, row] += matrix1[rxc, row] * matrix2[col, rxc] ;
                     }
                 }
             }
