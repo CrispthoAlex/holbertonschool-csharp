@@ -25,8 +25,8 @@ class MatrixMath
         //    clock = -clock;
 
         double[,] rotateMatrix = new double[,] {
-            {cosinangle, -sinangle},
-            {sinangle, cosinangle}
+            {cosinangle, sinangle},
+            {-sinangle, cosinangle}
         };
         
         if (matrix is double[,] && rotateMatrix is double[,] &&
