@@ -19,7 +19,7 @@ class MatrixMath
         // int countColMat1 = 0; // Number of columns in Matrix1
         
         if (matrix1 is double[,] && matrix2 is double[,] &&
-            matrix2.GetLength(1) == matrix1.GetLength(0) ) // Columns matrix1 equal to Rows matrix2.
+            matrix2.GetLength(1) == matrix1.GetLength(0)) // Columns matrix1 equal to Rows matrix2.
         {
             int colMat1 = matrix1.GetLength(0); // Vectors / Columns
             int rowMat1 = matrix1.GetLength(1); // Elements of vector == Rows
@@ -34,8 +34,7 @@ class MatrixMath
             {
                 for (int row = 0; row < rowMat1; row++)
                 {
-                    mulMatrix[col, row] = 0;
-                    for (int rxc = 0; rxc <  colMat1; rxc++)
+                    for (int rxc = 0; rxc < rowMat2; rxc++)
                     {
                         // Move col matrix1 and row matrix2
                         mulMatrix[col, row] += matrix1[rxc, row] * matrix2[col, rxc] ;
