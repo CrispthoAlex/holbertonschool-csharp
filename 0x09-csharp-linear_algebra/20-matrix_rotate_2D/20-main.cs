@@ -11,7 +11,7 @@ class Program
             {1, 2},
             {3, 4}
         };
-        Console.WriteLine($"Matrix1:\nColumns = {matrix1.GetLength(0)}\nRows = {matrix1.GetLength(1)}");
+        Console.WriteLine($"Matrix1:\nRows = {matrix1.GetLength(0)}\nColumns = {matrix1.GetLength(1)}");
         
         double angle = -1.57;
         Console.WriteLine($"Angle = {angle}");
