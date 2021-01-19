@@ -16,17 +16,14 @@ class MatrixMath
     public static double[,] Transpose(double[,] matrix)
     {
         if (matrix.Length == 0)
-            return matrix;
+            return new double[,] {};
 
         double[,] transposeMatrix = new double[matrix.GetLength(1), matrix.GetLength(0)];
         
-        // Matrix resulting has the same number of rows as the 1st matrix, and the same number
-        // of columns as the 2nd matrix.
-        for (int col = 0; col < matrix.GetLength(1); col++)
+        for (int row = 0; row < matrix.GetLength(0); row++)
         {
-            for (int row = 0; row < matrix.GetLength(0); row++)
+            for (int col = 0; col < matrix.GetLength(1); col++)
             {
-                // Move col matrix1 and row matrix2
                 transposeMatrix[col, row] = Math.Round(matrix[row, col], 2);
             }
         }
