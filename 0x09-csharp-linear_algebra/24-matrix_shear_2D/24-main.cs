@@ -11,7 +11,7 @@ class Program
             {1, 2},
             {3, 4}
         };
-        Console.WriteLine($"Matrix1:\nColumns = {matrix1.GetLength(0)}\nRows = {matrix1.GetLength(1)}");
+        Console.WriteLine($"Matrix1:\nRows = {matrix1.GetLength(0)}\nColumns = {matrix1.GetLength(1)}");
         char direction = 'x';
         double factor = 2;
         Console.WriteLine($"Factor = {factor}\nDirection = {direction}");
@@ -20,12 +20,12 @@ class Program
         
         Console.WriteLine("\n==================== TEST 2 ======================\n");
         double[,] matrix3 = new double[,] {
-            {-11, -5},
-            {6, 16}
+            {1, 2},
+            {3, 4}
             //{5, 2}
         };
 
-        Console.WriteLine($"Matrix3:\nColumns = {matrix3.GetLength(0)}\nRows = {matrix3.GetLength(1)}");
+        Console.WriteLine($"Matrix3:\nRows = {matrix3.GetLength(0)}\nColumns = {matrix3.GetLength(1)}");
         direction = 'y';
         Console.WriteLine($"Factor = {factor}\nDirection = {direction}");
         printMatrix(MatrixMath.Shear2D(matrix3, direction, factor));
@@ -37,7 +37,7 @@ class Program
             {-3, -7}
         };
 
-        Console.WriteLine($"Matrix4:\nColumns = {matrix4.GetLength(0)}\nRows = {matrix4.GetLength(1)}");
+        Console.WriteLine($"Matrix4:\nRows = {matrix4.GetLength(0)}\nColumns = {matrix4.GetLength(1)}");
         direction = 'x';
         Console.WriteLine($"Factor = {factor}\nDirection = {direction}");
         printMatrix(MatrixMath.Shear2D(matrix4, direction, factor));
@@ -48,7 +48,7 @@ class Program
             {-3, -7}
         };
 
-        Console.WriteLine($"Matrix5:\nColumns = {matrix5.GetLength(0)}\nRows = {matrix5.GetLength(1)}");
+        Console.WriteLine($"Matrix5:\nRows = {matrix5.GetLength(0)}\nColumns = {matrix5.GetLength(1)}");
         direction = 'a';
         Console.WriteLine($"Factor = {factor}\nDirection = {direction}");
         printMatrix(MatrixMath.Shear2D(matrix5, direction, factor));
@@ -64,7 +64,7 @@ class Program
         {
                     
             Console.WriteLine(
-                $"Dimension (Rank) = {matrix.Rank}\nDimension Column = {matrix.GetLength(0)}\nDimension Row = {matrix.GetLength(1)}\nAll Elements = {matrix.Length}"
+                $"Dimension (Rank) = {matrix.Rank}\nDimension Row = {matrix.GetLength(0)}\nDimension Column = {matrix.GetLength(1)}\nAll Elements = {matrix.Length}"
                 );
             
             Console.WriteLine($"Multiply resulting matrix is: \n");
