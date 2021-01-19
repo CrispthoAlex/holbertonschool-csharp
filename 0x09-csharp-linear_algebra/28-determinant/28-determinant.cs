@@ -1,15 +1,15 @@
 ﻿using System;
 
 /// <summary>
-/// This Class have a method to multiply a matrix and a scalar.
+/// This Class have a method to calculate the determinant of a matrix.
 /// </summary>
 class MatrixMath
 {
     /// <summary>
-    /// This Method multiplies a matrix and a scalar and returns the resulting matrix.
+    /// This Method calculates the determinant of a matrix.
     /// </summary>
     /// <returns>
-    /// The resulting matrix. If the matrix is not a 2D or 3D matrix, return a matrix containing -1.
+    /// The Determinat of matrix. If the matrix is not a 2D or 3D matrix, return -1.
     /// </returns>
     /// <param name="matrix">: Matrix to get the Determinant. </param>
     public static double Determinant(double[,] matrix)
