@@ -27,7 +27,7 @@ class MatrixMath
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
                 // Move col matrix1 and row matrix2
-                transposeMatrix[col, row] = matrix[row, col];
+                transposeMatrix[col, row] = Math.Round(matrix[row, col], 2);
             }
         }
         return transposeMatrix;
