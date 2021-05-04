@@ -31,7 +31,6 @@
 </ul>
 
 ## Requirements
-## .txt Answers
 <ul>
     <li>Allowed editors: <code>Visual Studio Code</code></li>
     <li>All files will be compiled on Ubuntu 14.04 LTS using <code>dotnet</code></li>
