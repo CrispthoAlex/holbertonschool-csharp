@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace _0_abstract_thinking
+/// Abstract class named Base
+public abstract class Base
 {
-    class Program
+    /// String Member of the class
+    public string name = null;
+
+    /// ToString method overrided
+    public override string ToString()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        return name + " is a " + this.GetType();
     }
+        
 }
