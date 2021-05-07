@@ -131,6 +131,7 @@ public class RoomObjects
             {
                 // Create a Object temporal to execute methods
                 IInteractive obj = item as IInteractive;
+                // check if the conversion is successful.
                 if (obj != null) { obj.Interact(); }
             }
 
@@ -138,6 +139,7 @@ public class RoomObjects
             {
                 // Create a Object temporal to execute methods
                 IBreakable obj = item as IBreakable;
+                // check if the conversion is successful.
                 if (obj != null) { obj.Break(); }
             }
 
@@ -145,6 +147,7 @@ public class RoomObjects
             {
                 // Create a Object temporal to execute methods
                 ICollectable obj = item as ICollectable;
+                // check if the conversion is successful
                 if (obj != null) { obj.Collect(); }
             }
         }
