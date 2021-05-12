@@ -31,6 +31,7 @@ class Player
     }
 
     // ***** Damage section *****
+    // delegate
     public delegate void  CalculateHealth(float property);
 
     /// <sumary>Method to print the Player damage </sumary>
