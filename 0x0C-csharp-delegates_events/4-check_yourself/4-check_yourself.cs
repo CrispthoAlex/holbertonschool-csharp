@@ -110,7 +110,7 @@ class Player
         } else if ( 0 < e.currentHP && e.currentHP < 0.25f * maxHp )
         {
             status = $"{name} needs help!" ;
-        } else if ( 0 == e.currentHP )
+        } else
         {
             status = $"{name} is knocked out!" ;
         }
