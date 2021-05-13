@@ -96,18 +96,19 @@ class Player
         return modifier == Modifier.Weak ? baseValue / 2 : modifier == Modifier.Strong ?  1.5f * baseValue : baseValue;
     }
 
+     ///<summary> Method to check the player status </summary>
     private void CheckStatus(object sender, CurrentHPArgs e)
     {
-        if(e.currentHP == maxHp)
+        if(e.currentHp == maxHp)
         {
             status = $"{name} is in perfect health!" ;
-        } else if ( 0.5f * maxHp <= e.currentHP && e.currentHP < maxHp )
+        } else if ( maxHp / 2 <= e.currentHp )
         {
             status = $"{name} is doing well!" ;
-        } else if ( 0.25f * maxHp <= e.currentHP && e.currentHP < 0.5f * maxHp )
+        } else if ( maxHp / 4 <= e.currentHp )
         {
             status = $"{name} isn't doing too great..." ;
-        } else if ( 0 < e.currentHP && e.currentHP < 0.25f * maxHp )
+        } else if ( 0 < e.currentHp )
         {
             status = $"{name} needs help!" ;
         } else
@@ -119,15 +120,15 @@ class Player
     }
 }
 
-/// <sumary> EventArgs class </sumary>
+/// <sumary> class to handler the events </sumary>
 class CurrentHPArgs : EventArgs
 {
-    public readonly float currentHP ;
+    public readonly float currentHp ;
     
     /// <sumary> Constructor </sumary>
     public CurrentHPArgs(float newHp)
     {
-        this.currentHP = newHp ;
+        this.currentHp = newHp ;
     }
 }
 
