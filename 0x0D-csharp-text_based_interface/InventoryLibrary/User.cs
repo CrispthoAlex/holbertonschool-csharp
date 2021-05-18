@@ -4,7 +4,7 @@ class User : BaseClass
 {
     public string name;
 
-    public User(string name="name")
+    public User(string name="UserName")
     {
         this.name = name;
     }

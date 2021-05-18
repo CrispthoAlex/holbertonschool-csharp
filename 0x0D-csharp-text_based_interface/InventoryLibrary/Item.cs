@@ -1,5 +1,6 @@
 using System;
 
+
 class Item : BaseClass
 {
     public string name;
@@ -11,7 +12,7 @@ class Item : BaseClass
     {
         this.name = name;
         this.description = description;
-        this.price = price;
+        this.price = Math.Round(price, 2) ;
         this.tags = tags;
     }
 }
