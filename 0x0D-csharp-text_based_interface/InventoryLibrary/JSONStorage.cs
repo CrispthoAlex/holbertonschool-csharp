@@ -1,54 +1,60 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Text.Json;
-using System.Collection.Generic;
 using System.Text.Json.Serialization;
-//using System.Reflection;
+using System.Reflection;
 
 
 /// <sumary>JSONStorage class</sumary>
-class JSONStorage
+class JSONStorage<T> where T: BaseClass
 {
     // Storage path
     // * Filename
-    private string FILENAME = @"inventory_manager.json"
+    private string FILENAME = @"inventory_manager.json";
     // * Directory
     private string DIRECTORY = @"storage/";
     // Storage Path
     private string _PATH = $"{DIRECTORY}{FILENAME}";
     /// <sumary> objects property </sumary>
-    public Dictionary<string, T> objects {get; set;} = new Dictionary<string, T>() ;
+    public Dictionary<string, T> objects {get; set;} = new Dictionary<string, T>();
 
-    // Constructor
+    /// <sumary> JSONStorage class constructor </sumary>
     public JSONStorage()
     {
         // Save current path
         // [directory/folder]
         string[] currentPath = Directory.GetCurrentDirectory().Split('/');
-        string currentFolder = currentPath[currentPath.Length - 1] ;
+        string currentFolder = currentPath[currentPath.Length - 1];
 
         // Create Directory
         if (currentFolder == "InventoryManager")
         {
-            _PATH = $"../{_PATH}" ;
-            !Directory.Exists($"../{DIRECTORY}") ? Directory.CreateDirectory($"../{DIRECTORY}") ;
+            _PATH = $"../{_PATH}";
+            if ( !Directory.Exists($"../{DIRECTORY}") )
+            {
+                Directory.CreateDirectory($"../{DIRECTORY}");
+            }
         }
         else
         {
-            !Directory.Exists(DIRECTORY) ? Directory.CreateDirectory(DIRECTORY) ;
+            if ( !Directory.Exists(DIRECTORY) )
+            {
+                Directory.CreateDirectory(DIRECTORY);
+            }
         }
     }
 
     /// <sumary> objects dictionary method </sumary>
     /// <return> return objects </return>
-    public Dictionary<string, T> All() => objects ;
+    public Dictionary<string, T> All() => objects;
 
     /// <sumary> Method to add a new key-value pair to objects </sumary>
     public void New(T obj)
     {
         // Key: <obj ClassName>.<obj id>
-        objects.Add($"{obj.GetType().Name}.{obj.id}", obj) ;
+        objects.Add($"{obj.GetType().Name}.{obj.id}", obj);
     }
 
     /// <sumary> Serializes objects to JSON and saves to the JSON file </sumary>
@@ -58,16 +64,16 @@ class JSONStorage
         {
             using (StreamWriter sw = File.CreateText(_PATH))
             {
-                string jsonString = "{" ;
+                string jsonString = "{";
                 foreach (var obj in objects)
                 {
-                    jsonString += $"{JsonSerializer.Serialize<string>(obj.Key)}:" ;
-                    jsonString += $"{JsonSerializer.Serialize<string>(obj.Value)}:" ;
+                    jsonString += $"{JsonSerializer.Serialize<string>(obj.Key)}:";
+                    jsonString += $"{JsonSerializer.Serialize<string>(obj.Value)}:";
                 }
                 if (jsonString.EndsWith(","))
-                    jsonString = jsonString.TrimEnd(',') ;
-                jsonString += "}" ;
-                sw.WriteLine(jsonString) ;
+                    jsonString = jsonString.TrimEnd(',');
+                jsonString += "}";
+                sw.WriteLine(jsonString);
             }
         }
         catch (Exception)
@@ -76,7 +82,7 @@ class JSONStorage
         }
     }
 
-    /// <sumary>deserializes JSON file to objects
+    /// <sumary>deserializes JSON file to objects </sumary>
     public void Load()
     {
         if (File.Exist(_PATH))
@@ -84,16 +90,16 @@ class JSONStorage
             using (StreamReader sr = File.OpenText(_PATH))
             {
                 string jsonString = sr.ReadLine();
-                Dictionary<string, Object> objDict = new Dictionary<string, object>() ;
-                objDict = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonString)  ;
+                Dictionary<string, Object> objDict = new Dictionary<string, object>();
+                objDict = JsonSerializer.Deserialize<Dictionary<string, object>>(jsonString);
 
                 foreach (var obj in objDict)
                 {
-                    string objType = obj.key.Split('.')[0] ;
-                    Type type = Type.GetType($"{objType}") ;
+                    string objType = obj.key.Split('.')[0];
+                    Type type = Type.GetType($"{objType}");
                     if (type == null)
                         continue;
-                    MethodInfo deserializeMethod = this.GetType().GetMethod("DynamicDeserialize").MakeGenericMethod(type) ;
+                    MethodInfo deserializeMethod = this.GetType().GetMethod("DynamicDeserialize").MakeGenericMethod(type);
                     
                     // Create new objects from file
                     Object newObj = deserailizeMethod.Invoke(null, new object[] { obj.Value });
@@ -103,8 +109,8 @@ class JSONStorage
         }
     }
 
-    /// <sumary>deserializes a object
-    public static TClass DynamicDeserialize<TClass>(Object o) => (TClass)JsonSerializer.Deserialize<TClass>(o.ToString()) ;
+    /// <sumary>deserializes a object</sumary>
+    public static TClass DynamicDeserialize<TClass>(Object o) => (TClass)JsonSerializer.Deserialize<TClass>(o.ToString());
 
 }
 
